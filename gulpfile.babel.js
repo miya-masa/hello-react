@@ -8,6 +8,7 @@ import buffer from 'vinyl-buffer';
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
+const TUTORIALS = ['1', '2', '3', '4'];
 
 // Lint JavaScript
 gulp.task('lint', () => gulp.src('app/src/**/*.js')
@@ -37,7 +38,7 @@ function bundle(tutorialID, bundler) {
     }));
 }
 
-['1', '2'].forEach((e) => {
+TUTORIALS.forEach((e) => {
   const tutorialID = `tutorial${e}`;
 
   const customOpts = {

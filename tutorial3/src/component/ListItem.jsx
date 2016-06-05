@@ -7,8 +7,6 @@ export default class ListItem extends React.Component {
   render() {
     // エレメント内の要素を表示する。
     // this.props.childerenで定義された要素を取得することが出来る。
-    return (
-      <li>{this.props.children}</li>
-      );
+    // TODO
   }
 }

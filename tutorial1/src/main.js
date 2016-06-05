@@ -1,11 +1,8 @@
 /* eslint no-unused-vars: ["error", {"varsIgnorePattern": "React"}] */
 // Reactをインポートする
-import React from 'react';
+// TODO
 // ReactDomをインポートする
-import ReactDOM from 'react-dom';
+// TODO
 
 // ReactDomで"#contents"に対して<h1>Hello World!!</h1>レンダリングする。
-ReactDOM.render(
-  <h1>Hello World!!</h1>,
-  document.getElementById('contents')
-);
+// TODO

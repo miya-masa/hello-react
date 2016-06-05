@@ -10,7 +10,7 @@ export default class extends React.Component {
       <div className="container">
         {
       // propsの子要素を表示子要素を表示
-      this.props.children
+      // TODO
       }
       </div>
       );

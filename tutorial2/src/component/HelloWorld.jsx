@@ -1,16 +1,11 @@
 // Reactモジュールをインポートする
-import React from 'react';
+// TODO
 
 // HelloWorldコンポーネントをエクスポートする
 // React.Componentを継承する
-export default class HelloWorld extends React.Component {
+// TODO
 
   // render()を記述する
-  render() {
+  // TODO
     // jsx形式で要素を返す
-    return (
-      <h1>Hello World!!</h1>
-      );
-  }
-
-}
+    // TODO

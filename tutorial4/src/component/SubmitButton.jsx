@@ -6,7 +6,7 @@ export default class SubmitButton extends React.Component {
 
   render() {
     // valueとonClickにそれぞれvalueとhandleSubmitをpropsから設定する
-    return (<input type="submit" className="btn btn-default" value={this.props.value} onClick={this.props.handleSubmit} />);
+    return (<input type="submit" className="btn btn-default" value=/* TODO */ onClick=/* TODO */ />);
   }
 }
 
@@ -14,6 +14,5 @@ export default class SubmitButton extends React.Component {
 // value -> 文字列 必須
 // handleSubmit -> 関数 必須
 SubmitButton.propTypes = {
-  value: React.PropTypes.string.isRequired,
-  handleSubmit: React.PropTypes.func.isRequired
+// TODO
 };

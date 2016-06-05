@@ -6,10 +6,9 @@ export default class HelloWorld extends React.Component {
   // コンストラクターを利用してコンポーネントの初期化を行う
   constructor() {
     // super()の呼び出し
-    super();
+    // TODO
     // handleCountUpとhandleCountDownのthisを強制する(Function#bind(this))
-    this.handleCountUp = this.handleCountUp.bind(this);
-    this.handleCountDown = this.handleCountDown.bind(this);
+    // TODO
     // コンポーネントの状態
     this.state = {
       count: 0,
@@ -20,17 +19,13 @@ export default class HelloWorld extends React.Component {
   // 状態を更新するイベントハンドラメソッド
   // カウントを一増やす
   handleCountUp() {
-    this.setState({
-      count: this.state.count + 1
-    });
+    // TODO
   }
 
   // 状態を更新するイベントハンドラメソッド
   // カウントを一減らす
   handleCountDown() {
-    this.setState({
-      count: this.state.count - 1
-    });
+    // TODO
   }
 
   render() {
@@ -38,14 +33,14 @@ export default class HelloWorld extends React.Component {
       <div>
         { // HelloWorldの直後に プロパティnameの表示
         }
-        <h1>Hello World!! {this.props.name} </h1>
+        <h1>/* TODO */</h1>
         { // clickイベントにハンドラを設定
         }
-        <button onClick={this.handleCountUp}>Count UP</button>
-        <button onClick={this.handleCountDown}>Count Down</button>
+        <button /* TODO */>Count UP</button>
+        <button /* TODO */>Count Down</button>
         { // カウントを表示
         }
-        <p>{this.state.count}</p>
+        <p>/* TODO */</p>
         <ul>
         {
         // state.data内の情報をListItemとして表示する
@@ -53,7 +48,9 @@ export default class HelloWorld extends React.Component {
         // ListItemにはプロパティ名"key"を設定する。
         // ListItemの内容はdataの内容をそのまま設定する。
         }
-      { this.state.data.map((e) => <ListItem key={e}>{e}</ListItem>) }
+        {
+        /* TODO */
+        }
         </ul>
       </div>
       );
@@ -62,6 +59,4 @@ export default class HelloWorld extends React.Component {
 
 // HelloWorldのPropTypesを定義
 // name -> 文字列 必須
-HelloWorld.propTypes = {
-  name: React.PropTypes.string.isRequired
-};
+// TODO

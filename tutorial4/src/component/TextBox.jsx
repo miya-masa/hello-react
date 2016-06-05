@@ -16,7 +16,7 @@ export default class TextBox extends React.Component {
       // onChange -> props.onChange
       // value -> props.value
       }
-      <input id={this.props.id} type={this.props.type} className="form-control" placeholder={this.props.placeholder} onChange={this.props.onChange} value={this.props.value} />
+      <input id=/* TODO */ type=/* TODO */ className="form-control" placeholder=/* TODO */ onChange=/* TODO */ value=/* TODO */ />
     </div>
       );
   }
@@ -31,19 +31,10 @@ export default class TextBox extends React.Component {
 // type -> password か text
 // React.Proptypes.oneOf([]);を利用する
 TextBox.propTypes = {
-  id: React.PropTypes.string.isRequired,
-  label: React.PropTypes.string.isRequired,
-  placeholder: React.PropTypes.string,
-  value: React.PropTypes.string,
-  onChange: React.PropTypes.func,
-  type: React.PropTypes.oneOf(['password', 'text'])
 };
 // デフォルト値(defaultProps)を設定する
 // placeholder -> ''
 // type -> text
 // value -> ''
 TextBox.defaultProps = {
-  placeholder: '',
-  type: 'text',
-  value: ''
 };

@@ -2,10 +2,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // jsxコンポーネントをインポートする
-import HelloWorld from './component/HelloWorld.jsx';
+// TODO
 
 ReactDOM.render(
   // jsxコンポーネントを描画する
-  <HelloWorld />,
-  document.getElementById('contents')
+  // TODO
 );

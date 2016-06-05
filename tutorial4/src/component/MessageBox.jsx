@@ -26,27 +26,27 @@ export default class MessageBox extends React.Component {
     // ダイアログを作成する
     return (
       // id属性にプロパティidを指定
-      <div id={this.props.id} className="modal fade" tabIndex="-1" role="dialog">
+      <div id=/* TODO */ className="modal fade" tabIndex="-1" role="dialog">
         <div className="modal-dialog modal-sm">
           <div className="modal-content">
             <div className="modal-header">
               {
       // onclickにpropのhandleCloseを指定する
       }
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={this.props.handleClose}><span aria-hidden="true">×</span></button>
+          <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick=/* TODO */><span aria-hidden="true">×</span></button>
               <h4 className="modal-title">結果</h4>
             </div>
             <div className="modal-body">
               {
       // onclickにpropのmessage表示する
       }
-              <p>{this.props.message}</p>
+              <p>/* TODO */</p>
             </div>
             <div className="modal-footer">
               {
       // onclickにpropのhandleCloseを指定する
       }
-              <button type="button" className="btn btn-default" data-dismiss="modal" onClick={this.props.handleClose}>Close</button>
+              <button type="button" className="btn btn-default" data-dismiss="modal" onClick=/* TODO */>Close</button>
             </div>
           </div>
         </div>
@@ -60,7 +60,4 @@ export default class MessageBox extends React.Component {
 // message -> 文字列かつ必須
 // handleClose -> 関数かつ必須
 MessageBox.PropTypes = {
-  id: React.PropTypes.string.isRequired,
-  message: React.PropTypes.string.isRequired,
-  handleClose: React.PropTypes.func.isRequired
 };

@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import HelloWorld from './component/HelloWorld.jsx';
 
 ReactDOM.render(
-  <HelloWorld name='Taro Yamada' />,
+  // name プロパティに文字列を設定する。
+  <HelloWorld name="Taro Yamada" />,
   document.getElementById('contents')
 );

@@ -5,5 +5,6 @@ import HelloWorld from './component/HelloWorld.jsx';
 
 ReactDOM.render(
   // name プロパティに文字列を設定する。
+  // TODO
   document.getElementById('contents')
 );
